@@ -72,3 +72,6 @@ export EDITOR=code
 export PYTHONBREAKPOINT=ipdb.set_trace
 sudo /etc/init.d/postgresql start
 sudo /etc/init.d/postgresql start
+export PATH=~/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
